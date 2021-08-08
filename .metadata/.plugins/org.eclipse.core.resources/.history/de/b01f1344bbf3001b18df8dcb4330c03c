@@ -1,0 +1,18 @@
+import java.awt.desktop.AboutEvent;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List li=new ArrayList<>();
+		li.add("hi");
+		li.add(12.0f);
+		li.add(true);
+		System.out.println(" li" + li);
+		
+	}
+
+}

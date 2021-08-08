@@ -1,0 +1,13 @@
+
+public class MobileMain {
+
+	public static void main(String[] args) {
+
+		MobileV3 m3=new MobileV3();
+		Object o=m3;
+		m3.A();
+		
+		
+	}
+
+}

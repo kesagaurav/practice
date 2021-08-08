@@ -1,0 +1,15 @@
+
+public class MobileMain {
+
+	public static void main(String[] args) {
+
+		MobileV3 m3=new MobileV3();
+		Object o=m3;
+		MobileV1 v1=m3;
+		MobileV2 v2=m3;
+	
+		
+		
+	}
+
+}

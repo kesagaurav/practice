@@ -1,0 +1,16 @@
+
+public class A extends Thread {
+
+	synchronized void add() {
+		public int a=20;
+		public int b=30;
+		int c=a+b;
+		try {
+			
+		}catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+	
+	
+}

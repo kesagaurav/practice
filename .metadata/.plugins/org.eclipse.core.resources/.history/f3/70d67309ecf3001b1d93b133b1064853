@@ -1,0 +1,10 @@
+
+public class MobileV1 {
+
+
+	public void A() {
+		System.out.println(" oh i am calling a method");
+	}
+	
+
+}

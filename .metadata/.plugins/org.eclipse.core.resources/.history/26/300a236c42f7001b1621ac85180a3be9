@@ -1,0 +1,9 @@
+
+public class A {
+
+	public void Hello() {
+		System.out.println("\n hi i am in a class");
+	}
+	
+	
+}
