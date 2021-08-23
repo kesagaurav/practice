@@ -1,9 +1,0 @@
-
-public class B extends A{
-	
-	public void B() {
-		System.out.println("\n i am in B methid");
-		
-	}
-
-}
