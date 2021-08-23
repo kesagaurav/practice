@@ -43,11 +43,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.gaurav"/>
 			<item value="njgnjk"/>
 		</list>
 		<list key="name">
+			<item value="jdbc_example"/>
 		</list>
 		<list key="artifactId">
+			<item value="jdb_example"/>
 			<item value="ndjndjk"/>
 		</list>
 		<list key="projectNameTemplate">
