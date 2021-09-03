@@ -47,9 +47,11 @@
 			<item value="njgnjk"/>
 		</list>
 		<list key="name">
+			<item value="jdbcdemo"/>
 			<item value="jdbc_example"/>
 		</list>
 		<list key="artifactId">
+			<item value="jdbcdemo"/>
 			<item value="jdb_example"/>
 			<item value="ndjndjk"/>
 		</list>
