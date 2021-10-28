@@ -16,9 +16,11 @@
 	</section>
 	<section name="NewClassWizardPage">
 		<item key="create_constructor" value="false"/>
-		<item key="create_unimplemented" value="true"/>
+		<item key="create_unimplemented" value="false"/>
 	</section>
 	<section name="completion_proposal_size">
+		<item key="size.x" value="391"/>
+		<item key="size.y" value="244"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
@@ -87,5 +89,12 @@
 	</section>
 	<section name="ClasspathContainerSelectionPage">
 		<item key="index" value="1"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.wizards.buildpaths.NewVariableEntryDialog">
+		<item key="DIALOG_X_ORIGIN" value="186"/>
+		<item key="DIALOG_Y_ORIGIN" value="13"/>
+		<item key="DIALOG_WIDTH" value="577"/>
+		<item key="DIALOG_HEIGHT" value="398"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

@@ -36,7 +36,7 @@ public class MapMain {
 		System.out.println(hm);
 		
 		
-		// replace null with default
+		// replace null with default values
 		System.out.println("\n this example is replaceing null with defaults values");
 		
 		Iterator<Entry<Integer, String>> i1 = hm.entrySet().iterator();
