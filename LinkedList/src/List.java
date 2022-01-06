@@ -15,6 +15,10 @@ public class List {
 	private Node head;
 	private Node tail;
 	private Node temp;
+	private Node current;
+	private Node prev=null;
+	private Node next2;
+	
 
 	public void addNode(int data) {
 		Node newNode = new Node(data);
@@ -28,11 +32,11 @@ public class List {
 
 	}
 
-	public void insertAtBegginning(int data) {
-		Node newNode = new Node(data);
+	public Node insertAtBegginning(Node newNode,int data) {
+		newNode = new Node(data);
 		newNode.data = data;
 		newNode.next = head;
-		head = newNode;
+		return head = newNode;
 
 	}
 	
@@ -58,6 +62,29 @@ public class List {
 			temp = temp.next;
 
 		}
+	}
+	
+	public void printReverse() {
+		current=head;
+		while(current!=null) {
+			next2=current.next;
+			current.next=prev;
+			prev=current;
+			current=next2;
+		}
+		head=prev;
+			
+			
+	}
+	
+	public void countOfLinkedList() {
+		temp=head;
+		int count=0;
+		while(temp!=null) {
+			count++;
+			temp=temp.next;
+		}
+		System.out.println("\n the count of linked list is " + count);
 	}
 
 }
