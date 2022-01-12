@@ -18,33 +18,33 @@ public class Main {
 		System.out.println(g);
 		B b = new B();
 		b.hello();
-		
-		List<Gaurav> gaurav=new ArrayList<>();
-		gaurav.add(new Gaurav(1,"gaurav","20000"));
-		gaurav.add(new Gaurav(2,"sdnjs","22000"));
-		gaurav.add(new Gaurav(3,"sdnjsd","10000"));
-		gaurav.add(new Gaurav(4,"sjoiajiao","23000"));
-		gaurav.add(new Gaurav(5,"gaurav3","29000"));
+
+		List<Gaurav> gaurav = new ArrayList<>();
+		gaurav.add(new Gaurav(1, "gaurav", "20000"));
+		gaurav.add(new Gaurav(2, "sdnjs", "22000"));
+		gaurav.add(new Gaurav(3, "sdnjsd", "10000"));
+		gaurav.add(new Gaurav(4, "sjoiajiao", "23000"));
+		gaurav.add(new Gaurav(5, "gaurav3", "29000"));
 		System.out.println(gaurav);
-		
+
 		try {
-			FileOutputStream fs=new FileOutputStream("D:\\gaurav.ser");
-			ObjectOutputStream os=new ObjectOutputStream(fs);
+			FileOutputStream fs = new FileOutputStream("D:\\gaurav.ser");
+			ObjectOutputStream os = new ObjectOutputStream(fs);
 			os.writeObject(gaurav);
 			fs.close();
 			os.close();
-			
+
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 		FileInputStream fs;
 		try {
 			fs = new FileInputStream("D:\\gaurav.ser");
-			ObjectInputStream os=new ObjectInputStream(fs);
-		List<Gaurav> g1=(List<Gaurav>) os.readObject();
+			ObjectInputStream os = new ObjectInputStream(fs);
+			List<Gaurav> g1 = (List<Gaurav>) os.readObject();
 			System.out.println("\n printing the elments are");
 			g1.forEach(System.out::println);
 			fs.close();
@@ -52,17 +52,13 @@ public class Main {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
-		
+
 			e.printStackTrace();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
-		
-		
-		
+
 	}
 
 }

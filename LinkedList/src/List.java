@@ -54,6 +54,8 @@ public class List {
 		head=head.next;
 	}
 	
+	
+	
 
 	public void display() {
 		temp = head;
