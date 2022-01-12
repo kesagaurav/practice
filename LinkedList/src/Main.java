@@ -29,7 +29,7 @@ public class Main {
 
 		l1.display();
 
-		System.out.println("\n the count of linked list is");
+		//System.out.println("\n the count of linked list is");
 		l1.countOfLinkedList();
 		//l1.display();
 		System.out.println("\n inserting at specified positions");
