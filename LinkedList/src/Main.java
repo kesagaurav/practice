@@ -29,6 +29,10 @@ public class Main {
 		System.out.println("\n the count of linked list is");
 		l1.countOfLinkedList();
 		//l1.display();
+		System.out.println("\n inserting at specified positions");
+		l1.insertAtSpecifiedPositions(5, 50);
+		l1.display();
+		
 	}
 
 }

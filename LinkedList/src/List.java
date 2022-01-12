@@ -54,7 +54,16 @@ public class List {
 		head=head.next;
 	}
 	
-	
+	public void insertAtSpecifiedPositions(int pos,int data) {
+		Node newNode=new Node(data);
+		pos=2;
+		temp=head;
+		for(int i=1;i<pos;i++) {
+			temp=temp.next;
+			newNode.next=temp.next;
+			temp.next=newNode;
+		}
+	}
 	
 
 	public void display() {

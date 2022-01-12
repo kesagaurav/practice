@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.ListIterator"/>
-<fullyQualifiedTypeName name="Guarav"/>
-<fullyQualifiedTypeName name="java.util.function.Function"/>
-<fullyQualifiedTypeName name="java.util.PriorityQueue"/>
 <fullyQualifiedTypeName name="java.util.stream.Stream"/>
 <fullyQualifiedTypeName name="Notification"/>
 <fullyQualifiedTypeName name="SMSNotification"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="List2"/>
+<fullyQualifiedTypeName name="DoubleLinkedList"/>
+<fullyQualifiedTypeName name="DoubleLinkedList.Node"/>
+<fullyQualifiedTypeName name="CircularLinkedList"/>
+<fullyQualifiedTypeName name="CircularLinkedList.Node"/>
 </qualifiedTypeNameHistroy>
