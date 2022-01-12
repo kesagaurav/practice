@@ -18,7 +18,8 @@ public class List {
 	private Node current;
 	private Node prev=null;
 	private Node next2;
-	
+	private Node t1;
+	private Node t2;
 
 	public void addNode(int data) {
 		Node newNode = new Node(data);
@@ -32,11 +33,10 @@ public class List {
 
 	}
 
-	public Node insertAtBegginning(Node newNode,int data) {
-		newNode = new Node(data);
-		newNode.data = data;
+	public void insertAtBegginning(int data) {
+		Node newNode = new Node(data);
 		newNode.next = head;
-		return head = newNode;
+	    head = newNode;
 
 	}
 	
@@ -62,6 +62,37 @@ public class List {
 			temp=temp.next;
 			newNode.next=temp.next;
 			temp.next=newNode;
+		}
+	}
+	
+	
+	public void sortOfLinkedList() {
+		int t;
+		for(t1=head;t1!=null;t1=t1.next) {
+			for(t2=head;t2!=null;t2=t2.next) {
+				if(t1.data<t2.data) {
+					t=t1.data;
+					t1.data=t2.data;
+					t2.data=t;
+				}
+			}
+		}
+	}
+	
+	
+	public void insertSortedElementInLinkedList(int data) {
+		int t;
+		if(head==null) {
+			head=null;
+		}
+		for(t1=head;t1!=null;t1=t1.next) {
+			for(t2=head;t2!=null;t2=t2.next) {
+				if(data<t1.data) {
+					t=t1.data;
+					t1.data=data;
+					data=t;
+				}
+			}
 		}
 	}
 	
