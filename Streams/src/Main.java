@@ -41,7 +41,7 @@ public class Main {
 		number.stream().map(x->x*x).forEach(e->System.out.println(" the prod of elements in list are " + e));
 		//System.out.println("multiplication of elements are " + d);
 		
-		number.stream().map(x->x*x).filter(x->x%2==0).anyMatch(x->x%1==0).
+		number.stream().map(x->x*x).filter(x->x%2==0).anyMatch(x->x%1==0);
 		
 	
 	}

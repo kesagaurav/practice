@@ -1,3 +1,4 @@
+import java.util.LinkedHashSet;
 
 public class List {
 
@@ -94,6 +95,15 @@ public class List {
 				}
 			}
 		}
+	}
+	
+	
+	public void removeDuplicates() {
+		LinkedHashSet<Node> set=new LinkedHashSet<>();
+		for(t1=head;t1!=null;t1=t1.next) {
+			set.add(t1);
+		}
+		System.out.println("\n removed slements are " + set);
 	}
 	
 

@@ -18,6 +18,7 @@ public class Main {
 		l1.addNode(2);
 		l1.addNode(10);
 		l1.addNode(20);
+		l1.addNode(20);
 		l1.addNode(30);
 
 		l1.insertAtEnd(12);
@@ -39,6 +40,8 @@ public class Main {
 		l1.sortOfLinkedList();
 		System.out.println("\n inserting the sorting elements");
 		l1.insertSortedElementInLinkedList(25);
+		l1.display();
+		System.out.println("\n remove duplicates from the linkedlist");
 		l1.display();
 		
 	}
