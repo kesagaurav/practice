@@ -10,6 +10,11 @@ public class Main {
 		
 		System.out.println("addtion is " + c.add(10,20));
 		
+		Add e=(c1,b)->{
+			return c1+b;
+		};
+		System.out.println(e.add(10, 21));
+		
 		Multiplication m=(a,b)->{
 			return a*b;
 		};
