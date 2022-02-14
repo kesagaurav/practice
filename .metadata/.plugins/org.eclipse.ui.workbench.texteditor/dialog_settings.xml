@@ -6,12 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="get"/>
+		<item key="selection" value="add"/>
 		<list key="findhistory">
+			<item value="add"/>
+			<item value="search"/>
+			<item value="top"/>
 			<item value="get"/>
 			<item value="String"/>
 			<item value="||"/>
-			<item value="add"/>
 			<item value="equals"/>
 		</list>
 		<list key="replacehistory">

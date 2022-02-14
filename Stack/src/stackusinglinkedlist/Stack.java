@@ -40,6 +40,7 @@ public class Stack {
 			temp.next = null;
 		}
 	}
+	Stack s
 
 	public void display() {
 		if (top == null) {
