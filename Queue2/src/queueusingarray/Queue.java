@@ -38,6 +38,12 @@ public class Queue {
 		}
 	}
 	
+	public void reverse() {
+		for(int i=rear;i>=front;i--) {
+			System.out.println(queue[i]);
+		}
+	}
+	
 	
 	public void display() {
 		for(int i=front;i<=rear;i++) {

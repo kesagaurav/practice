@@ -18,6 +18,10 @@ public class Qmain {
 		q.display();
 		System.out.println("\n display the elements of queue are ");
 		q.display();
+		System.out.println("after reversing the elements");
+
+		q.reverse();
+		// q.display();
 
 	}
 

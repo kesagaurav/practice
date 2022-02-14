@@ -10813,3 +10813,18 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2022-02-15 00:13:59.062
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-15 01:03:10.501
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-15 01:03:10.505
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-15 01:03:10.511
+!MESSAGE buffering callback sts4.classpath.RoGSBLue QueueInterface false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-15 01:03:10.512
+!MESSAGE executing callback sts4.classpath.RoGSBLue 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-15 01:03:10.527
+!MESSAGE executing callback sts4.classpath.RoGSBLue SUCCESS [done]
